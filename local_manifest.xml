@@ -5,7 +5,7 @@
   <remove-project name="kernel/build" />
   <remove-project name="kernel/common" />
 
-  <project path="common-6.1" name="kernel/common" revision="android14-6.1-lts" />
+  <project path="common-6.1" name="kernel/common" revision="android14-6.1-lts" remote="aosp" />
 
   <project path="build/kernel" name="kernel/build" remote="aosp">
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
